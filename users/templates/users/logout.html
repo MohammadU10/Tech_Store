@@ -1,0 +1,7 @@
+{% extends 'store/base.html' %}
+{% block content %}
+  <h2>You have been logged out</h2>
+  <div class="border-top pt-3">
+    <button class="btn btn-outline-info mt-1 mb-2" type="submit"><a href="{% url 'login' %}">Log In Again</a></button>
+  </div>
+{% endblock %}

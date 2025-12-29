@@ -1,0 +1,37 @@
+# Environment & Secrets
+.env
+
+# Python/Django artifacts
+*.pyc
+__pycache__/
+
+# Local DB
+*.sqlite3
+
+# Logs
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Test / coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# User-added images (except the default .png ones)
+.jpg
+.webp
+
+# Node.js artifacts (for Tailwind CSS)
+node_modules/
+package.json
+package-lock.json
