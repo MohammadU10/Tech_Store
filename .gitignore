@@ -2,3 +2,15 @@
 
 # Ignore local configuration with secrets
 .env
+
+# Ignore my database
+db.sqlite3
+
+# Ignore Python/Django cached & init files
+__pycache__
+__init__.py
+.pyc
+
+# Ignore profile and product images (except the default .png ones)
+.jpg
+.webp
