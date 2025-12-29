@@ -1,5 +1,5 @@
 # Django-Personal-Projects-1-
-> My E-Commerce Project developed using Django for an online Tech Store.
+> My E-Commerce personal project developed using Django as an online computer and laptop Store.
 
 ## **Project Requirements**
 1. Python (v3.12.3)
@@ -21,3 +21,6 @@
 
 8. az-iranian-bank-gateways, A Python gateway framework config for Iranian payment and bank gateways :
 ```pip install az-iranian-bank-gateways```
+
+9. Tailwind CSS (including npm dependencies):
+```python manage.py tailwind install```
