@@ -1,5 +1,40 @@
-# Specify filepatterns you want git to ignore.
 
+# Environment & Secrets
+.env
+
+# Python/Django artifacts
+*__pycache__
+*.pyc
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local DB
+*.sqlite3
+
+# Node.js artifacts (for Tailwind CSS)
+node_modules/
+
+# User-added images (except the default .png ones)
+*.jpg
+*.webp
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+
+# IDE/editor config files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+=======
 # Ignore local configuration with secrets
 .env
 
