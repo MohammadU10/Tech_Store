@@ -1,4 +1,4 @@
-# Django-Personal-Projects-1-
+# Django Tech Store
 > My E-Commerce personal project developed using Django as an online computer and laptop Store.
 
 ## **Project Requirements**
